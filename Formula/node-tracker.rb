@@ -1,28 +1,28 @@
 class NodeTracker < Formula
   desc "Telegram alerts when a Bitcoin node falls behind the chain tip"
   homepage "https://github.com/al-maisan/node-tracker"
-  version "1.3.0"
+  version "1.3.1"
   license "GPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/al-maisan/node-tracker/releases/download/v1.3.0/node-tracker_1.3.0_darwin_arm64.tar.gz"
-      sha256 "f1e9c3075a52ac5b62b2767372bb65e7c85e5b7021dbdb3f2907895e44df683d"
+      url "https://github.com/al-maisan/node-tracker/releases/download/v1.3.1/node-tracker_1.3.1_darwin_arm64.tar.gz"
+      sha256 "a35787d09dbde1a1ecd527d4e940e72092155859f98d0cdc0a95ad6c3529160d"
     end
     on_intel do
-      url "https://github.com/al-maisan/node-tracker/releases/download/v1.3.0/node-tracker_1.3.0_darwin_amd64.tar.gz"
-      sha256 "186918e22e4985f4116e088940ddebb5bfac2d139198121bed6cfde30d288a0d"
+      url "https://github.com/al-maisan/node-tracker/releases/download/v1.3.1/node-tracker_1.3.1_darwin_amd64.tar.gz"
+      sha256 "725aa207ee47e6f84dbfac68cc6777fc3ffc1ed1b523877b992216dd5ac410dc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/al-maisan/node-tracker/releases/download/v1.3.0/node-tracker_1.3.0_linux_arm64.tar.gz"
-      sha256 "d6f6f9cf3f29c1f20df79b0fdfc60156520f7c85b7e718b28d92db663db8b5e3"
+      url "https://github.com/al-maisan/node-tracker/releases/download/v1.3.1/node-tracker_1.3.1_linux_arm64.tar.gz"
+      sha256 "b0f3e528813bb4cfddaa04829ef60aa6c7ae387912933ca9d13ba6cf67bdc9d5"
     end
     on_intel do
-      url "https://github.com/al-maisan/node-tracker/releases/download/v1.3.0/node-tracker_1.3.0_linux_amd64.tar.gz"
-      sha256 "61b204436b4a9c13663df1569fcfe40b03d16dde7812f39237c9a8ef40483858"
+      url "https://github.com/al-maisan/node-tracker/releases/download/v1.3.1/node-tracker_1.3.1_linux_amd64.tar.gz"
+      sha256 "c9c823fdc582220510fa7c8525c8b0b14d7740c24f6946851b68dc001ba5bb74"
     end
   end
 
