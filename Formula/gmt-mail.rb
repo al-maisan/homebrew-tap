@@ -1,8 +1,8 @@
 class GmtMail < Formula
   desc "Send personalized bulk emails (mail merge) from the terminal over SMTP with TLS"
   homepage "https://github.com/al-maisan/gmt-mail"
-  url "https://github.com/al-maisan/gmt-mail/archive/refs/tags/v0.11.0.tar.gz"
-  sha256 "be747a9c36520369e5e1a0fe1df242b3debcd3bb1115c938eba9081b57426dec"
+  url "https://github.com/al-maisan/gmt-mail/archive/refs/tags/v0.11.1.tar.gz"
+  sha256 "144badc4aaa6dcaf6a5a60e90cba7c40ea7330518095e8e758912fce8ef8b220"
   license "GPL-3.0-or-later"
   head "https://github.com/al-maisan/gmt-mail.git", branch: "master"
 
